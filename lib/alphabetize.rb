@@ -5,6 +5,6 @@ def alphabetize(arr)
     word.chars.sort_by(&:downcase).join
 
       binding.pry
-    end
+
   end
 end
