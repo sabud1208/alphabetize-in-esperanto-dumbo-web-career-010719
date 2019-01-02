@@ -1,10 +1,10 @@
 
  require "pry"
 def alphabetize(arr)
-  ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |word|
     word.split(" ").collect do |char|
-    expressions.index(char)
+    alphabet.index(char)
   end
 end
 end
