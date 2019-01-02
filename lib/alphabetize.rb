@@ -2,8 +2,8 @@
  require "pry"
 def alphabetize(arr)
   arr.sort_by do |word|
-    word.chars.sort.join
-    
+    word.sort.join
+
 
       binding.pry
 
