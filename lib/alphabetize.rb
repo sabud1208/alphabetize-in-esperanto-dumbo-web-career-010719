@@ -2,8 +2,7 @@
  require "pry"
 def alphabetize(arr)
   arr.sort_by do |word|
-    word.chars.index(arr)
-
+    word.chars.collect do |char|
 
       binding.pry
 
