@@ -3,8 +3,8 @@
 def alphabetize(arr)
   arr.sort_by do |word|
     word.split(" ").collect do |char|
-      char = char[0]
-      word
+      char.sort_by { |x|char[0]}
+
       binding.pry
     end
   end
