@@ -5,6 +5,6 @@ def alphabetize(arr)
     word.chars.collect do |char|
 
       binding.pry
-
+    end 
   end
 end
