@@ -7,7 +7,6 @@ def alphabetize(expressions)
   expressions.each do |a|
     a.split(" ").collect do |x|
       esperanto_alphabet.index(x)
-      binding.pry
   end
  end
 end
