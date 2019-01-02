@@ -5,7 +5,7 @@ def alphabetize(expressions)
     "h", "ĥ", "i", "j", "ĵ", "k", "l", "m", "n", "o", "p", "r", "s",
     "ŝ", "t", "u", "ŭ", "v", "z"]
   expressions.each do |a|
-    a.chars.collect do |x|
+    a.split(" ").collect do |x|
       esperanto_alphabet.index(x)
       binding.pry
   end
