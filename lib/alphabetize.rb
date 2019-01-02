@@ -1,6 +1,7 @@
 
  require "pry"
 def alphabetize(expressions)
-  expressions.each {|a| expressionsa}
-  binding.pry
+  expressions.each do |a|
+  end
+  pry
 end
