@@ -2,6 +2,7 @@
  require "pry"
 def alphabetize(arr)
   arr.sort_by do |word|
-binding.pry
+    word.split(" ").collect do |char|
+    end
 end
 end
