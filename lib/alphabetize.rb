@@ -8,5 +8,4 @@ def alphabetize(arr)
      alphabet.index(character)
     end
   end
-  char
 end
