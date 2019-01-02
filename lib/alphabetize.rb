@@ -1,7 +1,7 @@
 
-def alphabetize(sentences_array)
-  sentences_array.sort_by do |sentence|
-    sentence.split("").map do |character|
+def alphabetize(arr)
+  arr.sort_by do |word|
+    word.split("").map do |character|
       esperanto.alphabet.index(character)
     end
   end
